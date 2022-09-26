@@ -1,0 +1,106 @@
+                body{
+                    font-family: sans-serif;
+                }
+
+                .text{
+                    text-align:center;
+                    margin: 50px;
+                }
+
+                .flex-container{
+                    display: flex;
+                    justify-content: center;
+                    text-align: center;
+                }
+
+                .flex-container > div{
+                    width: 300px;
+                    margin: 10px;
+                    height: 320px;
+                    outline-style: auto;
+                    border-radius: 8px;
+                    
+                }
+
+                .flex-container .box3{
+                    border:2px solid #1e81b0;
+                }
+
+                .flex-container .button button{
+                    height: 40px;
+                    width: 200px;
+                    font-size: 20px;
+                    border-radius: 8px;
+                }
+
+                .flex-container .box1 .button button{
+                    color:#1e81b0;
+                    border:2px solid #1e81b0;
+
+                }
+
+                .flex-container .box1 .button button:hover{
+                    background-color: #1e81b0;
+                    color: white;
+                }
+
+                .flex-container .box2 .button button{
+                    background-color: #1e81b0;
+                    color:blanchedalmond;
+                    border: none;
+                }
+
+                .flex-container .box2 .button button:hover{
+                    background-color:white;
+                    color:#1e81b0;
+                    border:2px solid #1e81b0;
+                }
+
+                .flex-container .box3 .button button{
+                    background-color: #1e81b0;
+                    color:blanchedalmond;
+                    border: none;
+
+                }
+                .flex-container .box3 .button button:hover{
+                    background-color:white;
+                    color:#1e81b0;
+                    border:2px solid #1e81b0;
+                }
+
+                .flex-container .features{
+                    font-size: 13px;
+                }
+
+                .flex-container .box3 .title{
+                    background-color:#1e81b0 ;
+                    color:blanchedalmond;
+                    
+                }
+
+                .flex-container .title{
+                    padding: 20px;
+                    font-size: 20px;
+                    margin-bottom: 15px;
+                    border-bottom:2px solid #e8e7e3;
+                    /*background-color:#e8e7e3;*/
+                    
+                }
+
+                .flex-container .price{
+                    
+                    font-size: 30px;
+                    margin-bottom: 15px;
+                }
+
+                .flex-container .features{
+                    margin: 25px;
+                }
+
+                
+                @media only screen and (max-width: 1200px) {
+
+                    .flex-container{
+                        flex-wrap: wrap;
+                    }
+                }

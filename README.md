@@ -1,1 +1,3 @@
 # Pricing-Plan
+
+Dinamicke kartice
